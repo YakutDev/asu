@@ -4,24 +4,25 @@
   <head>
 <script>
    var coin = 0;
-   var sound = new Audio("audio.mp3");
+   var snd = new Audio('Shot.wav');
   
    
   function nEmbak()
   {
-    
+     snd.play();
     coin += 200;
     alert('pajel telah ditembak, anda dapat' + coin +' coin' );
     
    var img = document.getElementById("image");
      img.src="https://img.itch.zone/aW1nLzUxODg5MTkucG5n/original/pXkU%2Bs.png";
-    sound.Play();
- sound.currentTime = 0;
-
+     
+    
+     
      
   }
   </script>
   </head>
+  
 <body style="background-color:aqua">
  <font style="font-size:70px">Pajel jelek😋</font>
  <br>
