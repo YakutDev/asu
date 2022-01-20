@@ -1,0 +1,41 @@
+
+
+<html>
+  <head>
+<script>
+   var coin = 0;
+   var sound = new Audio("audio.mp3");
+  
+   
+  function nEmbak()
+  {
+    sound.Play();
+    coin += 200;
+    alert('pajel telah ditembak, anda dapat' + coin +' coin' );
+    
+   var img = document.getElementById("image");
+     img.src="https://img.itch.zone/aW1nLzUxODg5MTkucG5n/original/pXkU%2Bs.png";
+     sound.currentTime = 0;
+     
+  }
+  </script>
+  </head>
+<body style="background-color:aqua">
+ <font style="font-size:70px">Pajel jelek😋</font>
+ <br>
+ <hr style="border-color:black">
+ <br>
+ <font style="font-size:20px">pajel anak stress, ayo siksa dia</font>
+ <br>
+ <br>
+ 
+ <img id="image"src="https://img.itch.zone/aW1nLzYxNDc0OTEuanBn/original/mIO%2FrX.jpg" width="300px" height="300px"/>
+ <br><br>
+ <button id="clickme"  style="background-color:orange" onclick="nEmbak();"><font style="font-size:30px">Ketuk untuk menembak pajel</font></button>
+  </body>
+  </html>
+  
+
+  
+  
+  
