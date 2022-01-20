@@ -9,13 +9,15 @@
    
   function nEmbak()
   {
-    sound.Play();
+    
     coin += 200;
     alert('pajel telah ditembak, anda dapat' + coin +' coin' );
     
    var img = document.getElementById("image");
      img.src="https://img.itch.zone/aW1nLzUxODg5MTkucG5n/original/pXkU%2Bs.png";
-     sound.currentTime = 0;
+    sound.Play();
+ sound.currentTime = 0;
+
      
   }
   </script>
